@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Butterfly Database</title>
+    <link rel="stylesheet" href="lab1.css">
+    <script src="lab1.js" defer></script>
+</head>
+<body>
+    <h1>Butterfly Database</h1>
+    <p>Explore 10 types of butterflies with images, descriptions, and links.</p>
+
+    <div id="search-container">
+        <input type="text" id="searchBox" placeholder="Search butterflies" maxlength="20">
+        <button onclick="searchButterflies()">Search</button>
+    </div>
+
+    <div id="dropdown-container">
+        <select id="scientificDropdown" onchange="showButterflyInfo()">
+            <option value="">Select scientific name</option>
+            <option value="Danaus plexippus">Danaus plexippus</option>
+        </select>
+    </div>
+
+    <ol type="I" id="butterflyList">
+        <li>
+            <h2>Monarch</h2>
+            <p><strong>Scientific name:</strong> Danaus plexippus</p>
+            <p><strong>Description:</strong> 3 1/2-4" (89-102 mm). Very large, bright orange with black veins and margins; tips of forewings black with white spots. Male has a black spot on hindwing cell.</p>
+            <div class="images">
+                <img src="images/monarch1.jpg" alt="Monarch 1">
+                <img src="images/monarch2.jpg" alt="Monarch 2">
+                <img src="images/monarch3.jpg" alt="Monarch 3">
+                <img src="images/monarch4.jpg" alt="Monarch 4">
+            </div>
+            <a href="https://en.wikipedia.org/wiki/Monarch_butterfly" target="_blank">Wikipedia Page</a>
+        </li>
+    </ol>
+
+    <footer>
+        Data sourced from <a href="https://www.leedsbutterflies.org" target="_blank">Leeds Butterfly Database</a>.
+    </footer>
+</body>
+</html>
