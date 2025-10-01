@@ -67,3 +67,13 @@ footer {
     padding: 8px 12px;
     font-size: 14px;
 }
+
+#type-checkboxes {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#type-checkboxes label {
+    margin-right: 15px;
+    font-size: 14px;
+}
