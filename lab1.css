@@ -112,3 +112,24 @@ footer {
   font-size: 0.9em;
   text-align: center;
 }
+
+#dynamicResultsContainer {
+  border: 1px solid #0b0404;
+  width: 1085px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #f9f9f9; 
+  border-radius: 10px;
+}
+
+#dynamicResultsContainer ol li {
+  border: 1px solid #aaa;
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#dynamicResultsContainer ol li:hover {
+  background-color: #f0f0f0;
+}
