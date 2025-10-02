@@ -25,8 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function validateInput(value) {
-        if (value.length > 20) return "Input must be 20 characters or less.";
-        if (!/^[a-zA-Z\s]*$/.test(value)) return "Input can only contain letters and spaces.";
+        if (value.length > 20) return "Input must be 20 characters or less...";
+        if (!/^[a-zA-Z\s]*$/.test(value)) return "Input can only contain letters A-Z and spaces...";
         return "";
     }
 
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const query = searchBox.value.trim().toLowerCase();
         const checkedNames = getCheckedNames();
 
-        dynamicContainer.innerHTML = "";
+        dynamicContainer.innerHTML = "         ";
 
         const error = validateInput(searchBox.value);
         validationMsg.textContent = error;
@@ -48,8 +48,8 @@ document.addEventListener("DOMContentLoaded", () => {
         );
 
         if (filtered.length === 0) {
-            const msg = document.createElement("p");
-            msg.textContent = "No butterflies match your search.";
+            const msg = document.createElement("h5");
+            msg.textContent = "Couldn't find that butterfly in our database...";
             dynamicContainer.appendChild(msg);
             return;
         }

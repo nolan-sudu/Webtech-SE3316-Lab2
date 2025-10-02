@@ -14,14 +14,14 @@
     </header>
 
     <div id="controls">
-        <div id="search-container">
-            <label for="searchBox" id="searchLabel">Search butterflies</label>
-            <input type="text" id="searchBox" placeholder="Enter butterfly name" maxlength="50" aria-labelledby="searchLabel">
-            <button id="searchBtn" type="button">Search</button>
-            <p id="validationMsg" aria-live="polite"></p>
-        </div>
+    <div id="search-container">
+        <input type="text" id="searchBox" placeholder="Search butterflies" maxlength="50">
+        <h4 id="validationMsg" aria-live="polite"></h4>
+    </div>
 
+    <div class="list-box">
         <div id="checkboxes" role="group" aria-label="Butterfly types">
+            <div class="title">Butterfly Type</div>
             <label><input type="checkbox" class="type-checkbox" value="Monarch" checked> Monarch</label>
             <label><input type="checkbox" class="type-checkbox" value="Zebra Longwing" checked> Zebra Longwing</label>
             <label><input type="checkbox" class="type-checkbox" value="Crimson-patched Longwing" checked> Crimson-patched Longwing</label>
@@ -34,6 +34,7 @@
             <label><input type="checkbox" class="type-checkbox" value="Painted Lady" checked> Painted Lady</label>
         </div>
     </div>
+</div>
 
     <div id="dynamicResultsContainer"></div>
 
