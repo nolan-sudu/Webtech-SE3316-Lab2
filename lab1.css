@@ -1,79 +1,70 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #e7acaca5;
-}
-h3 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 20px;
-    text-align: center;
-    font-size: medium;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #e7acaca5;
 }
 
 h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin: 50px;
-    text-align: center;
-    font-size: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 50px;
+  text-align: center;
+  font-size: 60px;
 }
 
-#search-container, #dropdown-container {
-    margin: 10px 0;
-    text-align: center;
-}
-
-ol li {
-    border: 1px solid #0b0404;
-    width: 1055px;
-    padding: 10px;
-    margin-bottom: 30px;
-    background-color: #de969698;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-ol li:hover {
-    background-color: #de9696c7;
-}
-
-.images img {
-    width: 250px;
-    margin: 5px;
-    border-radius: 5px;
-}
-
-footer {
-    margin-top: 30px;
-    font-size: 0.9em;
-    text-align: center;
+h3 {
+  font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+  margin: 20px;
+  text-align: center;
+  font-size: medium;
 }
 
 #controls {
-    display: flex;
-    justify-content: center; /* center everything horizontally */
-    align-items: center;     /* align vertically */
-    gap: 15px;               /* space between search and dropdown */
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+#search-container, #dropdown-container {
+  margin: 10px 0;
+  text-align: center;
 }
 
 #search-container input {
-    padding: 8px 12px;
-    font-size: 14px;
-    width: 220px; /* make search box a bit longer */
+  padding: 8px 12px;
+  font-size: 14px;
+  width: 220px;
 }
 
 #search-container button,
 #dropdown-container select {
-    padding: 8px 12px;
-    font-size: 14px;
+  padding: 8px 12px;
+  font-size: 14px;
 }
 
-#type-checkboxes {
-    text-align: center;
-    margin-top: 10px;
+ol li {
+  border: 1px solid #0b0404;
+  width: 1055px;
+  padding: 10px;
+  margin-bottom: 30px;
+  background-color: #de969698;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#type-checkboxes label {
-    margin-right: 15px;
-    font-size: 14px;
+ol li:hover {
+  background-color: #de9696c7;
+}
+
+.images img {
+  width: 250px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.9em;
+  text-align: center;
 }
